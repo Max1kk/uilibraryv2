@@ -1109,7 +1109,7 @@ local themes = {
         ["Dropdown Option Background"] = Color3.fromRGB(19, 19, 19)
     },
 
-    Custom = {
+    CustomV1 = {
         ["Accent"] = Color3.fromRGB(85, 0, 154),
         ["Window Background"] = Color3.fromRGB(30, 30, 36),
         ["Window Border"] = Color3.fromRGB(45, 45, 49),
@@ -1369,7 +1369,7 @@ function library:SetTheme(theme)
 end
 
 function library:GetThemes()
-    local themes = {"Default", "Custom"}
+    local themes = {"Default", "CustomV1"}
 
     local folderpath = string.format("%s//themes", self.folder)
 
