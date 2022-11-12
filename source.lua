@@ -18,8 +18,6 @@ local drawing = {} do
         end
     })
 
-    -- taken from Nevermore Engine https://github.com/Quenty/NevermoreEngine/tree/main/src
-
     local HttpService = game:GetService("HttpService")
 
     local ENABLE_TRACEBACK = false
@@ -1120,7 +1118,7 @@ local themes = {
         ["Tab Toggle Background"] = Color3.fromRGB(28, 28, 32),
         ["Section Background"] = Color3.fromRGB(18, 18, 22),
         ["Section Border"] = Color3.fromRGB(35, 35, 45),
-        ["Text"] = Color3.fromRGB(180, 180, 190),
+        ["Text"] = Color3.fromRGB(255, 255, 255),
         ["Disabled Text"] = Color3.fromRGB(100, 100, 110),
         ["Object Background"] = Color3.fromRGB(25, 25, 29),
         ["Object Border"] = Color3.fromRGB(35, 35, 39),
